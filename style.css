@@ -1,0 +1,84 @@
+/*---fonts---*/
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(./fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(./fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Semibold;
+    src: url(./fonts/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(./fonts/OpenSans-Bold.ttf);
+}
+
+body {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 10pt;
+    color: grey;
+    text-align: center;
+}
+
+input {
+    padding: 5px 10px;
+}
+
+label, button {
+    display: block;
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+::-webkit-input-placeholder {color:gainsboro;}
+::-moz-placeholder          {color:gainsboro;}/* Firefox 19+ */
+:-moz-placeholder           {color:gainsboro;}/* Firefox 18- */
+:-ms-input-placeholder      {color:gainsboro;}
+
+.calendar-container {
+    text-align: left;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.calendar-container .hour {
+    position: relative;
+    font-size: 16px;
+    border-top: 1px solid gainsboro;
+    height: 60px;
+}
+
+.calendar-container .hour span {
+    vertical-align: middle;
+}
+
+.calendar-container .hour .half-an-hour {
+    font-size: 12px;
+    height: 30px;
+}
+
+.calendar-container .hour .task {
+    font-size: 10px;
+    width: 200px;
+    max-width: 200px;
+    background-color: #E2ECF5;
+    border-left: solid 3px #6E9ECF;
+    position: absolute;
+    top: 0;
+    left: 50px;
+}

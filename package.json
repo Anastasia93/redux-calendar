@@ -1,0 +1,17 @@
+{
+  "name": "react-ru-practice",
+  "version": "1.0.0",
+  "description": "React practice task",
+  "main": "index.html",
+  "scripts": {
+    "start": "start http://localhost:3001 & node server.js"
+  },
+  "author": "Anastasiia Iagniuk",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.15.3",
+    "mongojs": "^2.4.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
