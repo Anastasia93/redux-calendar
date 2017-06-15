@@ -6,14 +6,13 @@
     <!--style-->
     <link rel="stylesheet" href="style.css">
     <!--js-->
-    <script src="js/react/react.js" defer></script>
-    <script src="js/react/react-dom.js" defer></script>
-    <script src="js/app.js" defer></script>
-    <script type="text/babel" src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js" defer></script>
+    <script src="js/react/react.min.js" defer></script>
+    <script src="js/react/react-dom.min.js" defer></script>
+    <script src="js/react/browser.min.js" defer></script>
+    <script type="text/babel" src="js/app.js" defer></script>
 </head>
-<body>
-<h1>Your personal calendar</h1>
-<div  id="root" class="login-container">
+<body id="root" >
+<div class="login-container">
     <h2>Please, enter your login and password.</h2>
     <form>
         <label for="login">Login</label>
@@ -22,67 +21,6 @@
         <input id="password" type="password" placeholder="password">
         <button type="submit">Submit</button>
     </form>
-</div>
-<div class="calendar-container">
-    <div class="hour hour-8">
-        <span>8.00</span>
-        <div class="half-an-hour">
-            <span>8.30</span>
-        </div>
-        <div class="task">What to do</div>
-    </div>
-    <div class="hour hour-9">
-        <span>9.00</span>
-        <div class="half-an-hour">
-            <span>9.30</span>
-        </div>
-    </div>
-    <div class="hour hour-10">
-        <span>10.00</span>
-        <div class="half-an-hour">
-            <span>10.30</span>
-        </div>
-    </div>
-    <div class="hour hour-11">
-        <span>11.00</span>
-        <div class="half-an-hour">
-            <span>11.30</span>
-        </div>
-    </div>
-    <div class="hour hour-12">
-        <span>12.00</span>
-        <div class="half-an-hour">
-            <span>12.30</span>
-        </div>
-    </div>
-    <div class="hour hour-13">
-        <span>13.00</span>
-        <div class="half-an-hour">
-            <span>13.30</span>
-        </div>
-    </div>
-    <div class="hour hour-14">
-        <span>14.00</span>
-        <div class="half-an-hour">
-            <span>14.30</span>
-        </div>
-    </div>
-    <div class="hour hour-15">
-        <span>15.00</span>
-        <div class="half-an-hour">
-            <span>15.30</span>
-        </div>
-    </div>
-    <div class="hour hour-16">
-        <span>16.00</span>
-        <div class="half-an-hour">
-            <span>16.30</span>
-        </div>
-    </div>
-    <div class="hour hour-17">
-        <span>17.00</span>
-        </div>
-    </div>
 </div>
 </body>
 </html>

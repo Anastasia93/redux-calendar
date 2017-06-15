@@ -50,6 +50,14 @@ button {
 :-moz-placeholder           {color:gainsboro;}/* Firefox 18- */
 :-ms-input-placeholder      {color:gainsboro;}
 
+.none {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
 .calendar-container {
     text-align: left;
     width: 75%;
@@ -81,4 +89,10 @@ button {
     position: absolute;
     top: 0;
     left: 50px;
+}
+
+.buttons-container button {
+    width: 150px;
+    display: inline-block;
+    margin: 15px;
 }
