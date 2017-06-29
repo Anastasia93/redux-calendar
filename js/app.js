@@ -1,5 +1,4 @@
 import { React } from 'react';
-import { createStore } from 'redux';
 
 let Title = React.createClass({
     render: function() {
